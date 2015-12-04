@@ -1,0 +1,42 @@
+
+/*nav*/
+
+.navbar {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: 20;
+	width: 100%;
+}
+
+.navbar-default {
+	background-color: transparent;
+	border-color: transparent;
+}
+
+/*end of nav*/
+
+/*carousel*/
+.carousel {
+	margin-bottom: 60px
+}
+
+.slide-one {
+	background-image: url(../img/wood-2.jpg);
+}
+
+.slide-two {
+	background-image: url(../img/restaurant-2.jpg);
+}
+
+.slide-three {
+	background-image: url(../img/farm-2.jpg);
+}
+
+.carousel-inner .item {
+	height: 600px;
+	background-size: cover;
+	background-position: center;
+}
+/*end of carousel*/
